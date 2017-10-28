@@ -1,0 +1,20 @@
+{
+  "name": "mailclient",
+  "version": "1.0.0",
+  "description": "Email Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email-client",
+    "mailgun"
+  ],
+  "author": "shanmugavel.rs@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mailgun-js": "^0.13.1"
+  }
+}
