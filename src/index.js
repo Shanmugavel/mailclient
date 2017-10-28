@@ -5,8 +5,7 @@ var mailgun = require('mailgun-js')({apiKey: process.env.apiKey, domain: process
 
 var data = {
     from: 'Shanmugavel Sundaramoorthy <shan@shanmugavel.xyz>',
-    to: 'shanmugavel.rs@gmail.com, s.shanmugavelmca@gmail.com',
-    cc : 'ssv.mca@gmail.com',
+    to: 'shanmugavel.rs@gmail.com',
     subject: 'Hi!!',
     html: `My 1st html email!!. <br />
            Please visit my site<a href="https://www.shanmugavel.xyz">shanmugavel.xyz</a>
